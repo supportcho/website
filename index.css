@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+}
+
+.logo img
+{
+    width: 150px;
+    height:50px;
+}
+
+.head
+{
+    padding: 0 10px;
+    width: auto;
+    height:auto;
+    font-size:small;
+}
+    
+.menu_item {
+    padding:0 10px;
+}
+
+ul.upper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.upper li {
+    border: 1px solid green;
+    list-style-type: none;
+}
+.menu
+{
+    display:flex;
+    justify-content: space-between;
+}
+ul.link_tool
+{
+    display:flex;
+    border:1px solid red;
+    list-style-type: none;
+}
+
+
+ul.category
+{
+    padding: 0;
+    padding-left: 16px;
+    display:flex;
+    border:1px solid green;
+    list-style-type: none;
+    
+}
+
+
+.category-item{
+    margin-right: 10px;
+}
+
+
+.main {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.contents-container {
+    background-color: pink;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, minmax(100px, 500px));
+    column-gap:30px;
+}
+
+.item-content {
+    width: 100%; /*100퍼센트는 상위 컨테이너를 기준으로 맞춘다.*/
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.temp-image {
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    border: 1px solid red;
+}
+.image-info {
+    border: 1px solid green;
+    display: flex;
+    width: 100%;
+    column-gap: 10px;
+}
+.profile-image {
+    border: 1px solid red;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+}
+.title-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.category-container
+{
+    display:flex; 
+    border:1px solid red;
+    padding:0;
+    padding-left:16px;
+    justify-content: space-between;
+    padding-right:16px;
+}
+
+
+.cat-img
+{
+    width:66px;
+    height:66px;
+    border-radius:50px;
+    border:1px solid red;
+}
+
+.category-box
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+ul.sorting-by
+{
+    display:flex;
+    justify-content: flex-end;
+    padding-right:16px;
+    column-gap:16px;
+}
+
+ul.sorting-by li
+{
+    list-style-type: none;
+}
